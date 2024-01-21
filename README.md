@@ -1,5 +1,5 @@
 # ROOT'lu Qualcomm Snapdragon cihazlar için güçlü bir araç  
-Qualcomm Snapdragon cihazlar için şebeke sorunları olan cep telefonlarının daha kolay onarılabilmesi ve başkaca teknik işlemlerin gerçekleştirilebilmesi için geliştirilen ücretsiz, reklamsız ve açık kaynak Android uygulaması...  
+Qualcomm Snapdragon işlemcili, şebeke sorunları olan cep telefonlarının daha kolay onarılabilmesi ve başkaca teknik işlemlerin gerçekleştirilebilmesi için geliştirilen ücretsiz, reklamsız ve açık kaynak Android uygulaması...  
 
 ## Desteklenen cihazlar:  
 - Xiaomi  
@@ -23,7 +23,7 @@ Qualcomm Snapdragon cihazlar için şebeke sorunları olan cep telefonlarının 
 ## Nasıl kullanırım:
 - Ne işe yaradığını bilmiyorsanız lütfen ama lütfen indirmeyin! Cihazınıza kalıcı zararlar verebilir.
 - [bakimzi.apk](https://github.com/symbuzzer/bakimzi/releases/latest/download/bakimzi.apk) dosyasını indirip rootlu cihazınıza kurun.  
-- Uygulamayı çalıştırıp ROOT yetkisi verin. Uygulamanın diğer izinlerine ellemeyin ya da elleyin siz bilirsiniz. 
+- Uygulamayı çalıştırıp ROOT yetkisi verin.
 
 ## Özellikleri:  
 - QPST (QUALCOMM DIAG) modunu ve ADB ile geliştirici seçeneklerini tek tuşla aktifleştirme    
@@ -45,6 +45,6 @@ Qualcomm Snapdragon cihazlar için şebeke sorunları olan cep telefonlarının 
 - Uygulama olarak dışa aktarırken "Başlangıç görevi: Start", "min android version: 26" and "target android version: 29" olarak ayarlamanız gerekmektedir.
   
 ## Ekran görüntüleri:
-![](https://github.com/symbuzzer/bakimzi/blob/main/screenshot1.jpg?raw=true)
-![](https://github.com/symbuzzer/bakimzi/blob/main/screenshot2.jpg?raw=true)
+![](https://github.com/symbuzzer/bakimzi/blob/main/screenshot1.png?raw=true)
+![](https://github.com/symbuzzer/bakimzi/blob/main/screenshot2.png?raw=true)
 
