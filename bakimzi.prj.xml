@@ -1,10 +1,11 @@
 <TaskerData sr="" dvi="1" tv="6.2.22">
 	<dmetric>1080.0,2283.0</dmetric>
-	<Profile sr="prof70" ve="2">
-		<cdate>1706427047229</cdate>
-		<edate>1706427061378</edate>
+	<Profile sr="prof71" ve="2">
+		<cdate>1706469797440</cdate>
+		<clp>true</clp>
+		<edate>1706478695118</edate>
 		<flags>8</flags>
-		<id>70</id>
+		<id>71</id>
 		<mid0>13</mid0>
 		<nme>UpdateListener</nme>
 		<Event sr="con0" ve="2">
@@ -13,20 +14,33 @@
 			<Str sr="arg1" ve="3"/>
 		</Event>
 	</Profile>
+	<Profile sr="prof78" ve="2">
+		<cdate>1706478834545</cdate>
+		<clp>true</clp>
+		<edate>1706478853378</edate>
+		<flags>8</flags>
+		<id>78</id>
+		<mid0>73</mid0>
+		<nme>NFCListener</nme>
+		<State sr="con0" ve="2">
+			<code>195</code>
+			<Int sr="arg0" val="1"/>
+		</State>
+	</Profile>
 	<Project sr="proj0" ve="2">
 		<cdate>1682134220535</cdate>
 		<name>bakimzi</name>
-		<pids>70</pids>
-		<scenes>HtmlViewer,DebugMenu,Splash,HtmlViewerWoutButton,Confirm,SelectDevice,Main</scenes>
-		<tids>60,12,11,5,20,15,35,63,4,61,42,45,18,26,41,59,27,19,48,24,44,23,32,56,53,22,43,58,62,6,57,9,52,68,40,10,39,47,46,25,69,37,8,67,50,49,30,14,33,38,3,66,29,17,21,65,54,28,7,16,13,2,55,71,51,34,64,36,31</tids>
+		<pids>71,78</pids>
+		<scenes>Main,DebugMenu,Splash,Confirm,SelectDevice,HtmlViewer,HtmlViewer2</scenes>
+		<tids>39,16,18,28,74,33,64,11,25,56,4,42,8,54,21,24,66,5,27,48,3,22,65,40,45,20,61,13,41,68,38,23,2,26,58,36,69,43,47,17,14,9,51,6,19,63,12,50,53,30,37,52,49,59,15,7,70,73,10,62,35,34,44,55,67,31,29,60,32,57,46</tids>
 		<tsort>AgeOldestFirst</tsort>
 		<Kid sr="Kid">
 			<launchID>30</launchID>
-			<pkg>com.symbuzzer.bakimzi101</pkg>
+			<pkg>com.symbuzzer.bakimzi102</pkg>
 			<vMin>26</vMin>
 			<vTarg>29</vTarg>
-			<vnme>1.0.1</vnme>
-			<vnum>407</vnum>
+			<vnme>1.0.2</vnme>
+			<vnum>436</vnum>
 		</Kid>
 		<Img sr="icon" ve="2">
 			<fle>/storage/emulated/0/Download/icon.png</fle>
@@ -34,7 +48,7 @@
 	</Project>
 	<Scene sr="sceneConfirm">
 		<cdate>1682592156421</cdate>
-		<edate>1705787305336</edate>
+		<edate>1706470508650</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>Confirm</nme>
@@ -259,7 +273,7 @@
 	</Scene>
 	<Scene sr="sceneHtmlViewer">
 		<cdate>1682145782310</cdate>
-		<edate>1706429205303</edate>
+		<edate>1706474842677</edate>
 		<heightLand>-1</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>HtmlViewer</nme>
@@ -289,6 +303,18 @@
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="2"/>
 			<Int sr="arg8" val="0"/>
+			<RectElement sr="background">
+				<flags>4</flags>
+				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
+				<Str sr="arg0" ve="3"/>
+				<Int sr="arg1" val="0"/>
+				<Str sr="arg2" ve="3">%bgColor</Str>
+				<Str sr="arg3" ve="3"/>
+				<Int sr="arg4" val="0"/>
+				<Str sr="arg5" ve="3">#FF000000</Str>
+				<Int sr="arg6" val="0"/>
+				<Int sr="arg7" val="0"/>
+			</RectElement>
 		</TextElement>
 		<ButtonElement sr="elements2" ve="3">
 			<clickTask>44</clickTask>
@@ -353,34 +379,22 @@
 			</LinkClickFilter>
 		</PropertiesElement>
 	</Scene>
-	<Scene sr="sceneHtmlViewerWoutButton">
+	<Scene sr="sceneHtmlViewer2">
 		<cdate>1682145782310</cdate>
-		<edate>1683063171418</edate>
+		<edate>1706478869859</edate>
 		<heightLand>-1</heightLand>
-		<heightPort>1483</heightPort>
-		<nme>HtmlViewerWoutButton</nme>
+		<heightPort>808</heightPort>
+		<nme>HtmlViewer2</nme>
 		<widthLand>-1</widthLand>
 		<widthPort>702</widthPort>
-		<RectElement sr="elements0">
+		<TextElement sr="elements0" ve="3">
 			<flags>4</flags>
-			<geom>0,0,701,123,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle11</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">%labelColor</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
-			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
-		<TextElement sr="elements1" ve="3">
-			<flags>4</flags>
-			<geom>29,148,643,1136,-1,-1,-1,-1</geom>
+			<geom>0,0,701,650,-1,-1,-1,-1</geom>
 			<Str sr="arg0" ve="3">Metin1</Str>
 			<Str sr="arg1" ve="3">%htmlContent</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 			<Str sr="arg5" ve="3"/>
 			<Int sr="arg6" val="0"/>
 			<Int sr="arg7" val="2"/>
@@ -390,7 +404,7 @@
 				<geom>-1,-1,-1,-1,-1,-1,-1,-1</geom>
 				<Str sr="arg0" ve="3"/>
 				<Int sr="arg1" val="0"/>
-				<Str sr="arg2" ve="3"/>
+				<Str sr="arg2" ve="3">#80000000</Str>
 				<Str sr="arg3" ve="3"/>
 				<Int sr="arg4" val="0"/>
 				<Str sr="arg5" ve="3">#FF000000</Str>
@@ -398,58 +412,33 @@
 				<Int sr="arg7" val="0"/>
 			</RectElement>
 		</TextElement>
-		<TextElement sr="elements2" ve="3">
+		<ButtonElement sr="elements1" ve="3">
+			<clickTask>74</clickTask>
 			<flags>4</flags>
-			<geom>153,0,544,123,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Text111</Str>
-			<Str sr="arg1" ve="3">%appTitle
-%appDeveloper</Str>
+			<geom>0,625,701,182,-1,-1,-1,-1</geom>
+			<Str sr="arg0" ve="3">Buton1</Str>
+			<Str sr="arg1" ve="3">Tamam</Str>
 			<Int sr="arg2" val="16"/>
 			<Int sr="arg3" val="100"/>
-			<Str sr="arg4" ve="3">%txtColor</Str>
+			<Str sr="arg4" ve="3">#FFFFFFFF</Str>
 			<Str sr="arg5" ve="3"/>
-			<Int sr="arg6" val="3"/>
-			<Int sr="arg7" val="2"/>
-			<Int sr="arg8" val="0"/>
-		</TextElement>
-		<ImageElement sr="elements3" ve="2">
-			<flags>4</flags>
-			<geom>29,0,123,123,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Image11</Str>
-			<Img sr="arg1" ve="2">
-				<fle>/storage/emulated/0/Download/icon.png</fle>
-			</Img>
-			<Int sr="arg2" val="255"/>
-		</ImageElement>
-		<RectElement sr="elements4">
-			<flags>4</flags>
-			<geom>0,0,696,123,-1,-1,-1,-1</geom>
-			<Str sr="arg0" ve="3">Rectangle21</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg2" ve="3">#00FFFFFF</Str>
-			<Str sr="arg3" ve="3"/>
-			<Int sr="arg4" val="0"/>
-			<Str sr="arg5" ve="3">#FF000000</Str>
 			<Int sr="arg6" val="0"/>
-			<Int sr="arg7" val="0"/>
-		</RectElement>
+			<Img sr="arg7" ve="2"/>
+		</ButtonElement>
 		<PropertiesElement sr="props">
-			<Int sr="arg0" val="2"/>
+			<Int sr="arg0" val="1"/>
 			<Int sr="arg1" val="2"/>
-			<Str sr="arg2" ve="3">%bgColor</Str>
+			<Str sr="arg2" ve="3">#80000000</Str>
 			<Int sr="arg3" val="0"/>
-			<Str sr="arg4" ve="3">%appTitle</Str>
-			<Str sr="arg5" ve="3">%appDeveloper</Str>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
 			<Img sr="arg6" ve="2"/>
 			<Str sr="arg7" ve="3"/>
-			<LinkClickFilter sr="filter0">
-				<stopEvent>true</stopEvent>
-			</LinkClickFilter>
 		</PropertiesElement>
 	</Scene>
 	<Scene sr="sceneMain">
 		<cdate>1682135090682</cdate>
-		<edate>1706432666542</edate>
+		<edate>1706470438554</edate>
 		<heightLand>1080</heightLand>
 		<heightPort>1483</heightPort>
 		<nme>Main</nme>
@@ -1375,7 +1364,7 @@ Lütfen bunları başka bir cihazda daha saklayın.</Str>
 	</Task>
 	<Task sr="task13">
 		<cdate>1683356154111</cdate>
-		<edate>1706428838081</edate>
+		<edate>1706478695118</edate>
 		<id>13</id>
 		<nme>Auto Uninstall</nme>
 		<Action sr="act0" ve="7">
@@ -1402,24 +1391,15 @@ Root Erişimi
 			</ConditionList>
 		</Action>
 		<Action sr="act2" ve="7">
-			<code>548</code>
+			<code>547</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Güncellemeyi yüklemek için eskiyi kaldırın</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
+			<Str sr="arg0" ve="3">%htmlContent</Str>
+			<Str sr="arg1" ve="3">%Güncellemeyi yüklemek için eskiyi kaldırın</Str>
 			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act3" ve="7">
 			<code>43</code>
@@ -1444,27 +1424,38 @@ Root Erişimi
 			<Int sr="arg7" val="0"/>
 		</Action>
 		<Action sr="act6" ve="7">
-			<code>548</code>
+			<code>547</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">Eski sürüm kaldırıldı</Str>
-			<Int sr="arg1" val="0"/>
-			<Str sr="arg10" ve="3"/>
-			<Int sr="arg11" val="1"/>
-			<Int sr="arg12" val="0"/>
-			<Str sr="arg13" ve="3"/>
-			<Int sr="arg14" val="0"/>
-			<Str sr="arg15" ve="3"/>
+			<Str sr="arg0" ve="3">%htmlContent</Str>
+			<Str sr="arg1" ve="3">Eski sürüm kaldırıldı!</Str>
 			<Int sr="arg2" val="0"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Str sr="arg5" ve="3"/>
-			<Str sr="arg6" ve="3"/>
-			<Str sr="arg7" ve="3"/>
-			<Str sr="arg8" ve="3"/>
-			<Int sr="arg9" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act7" ve="7">
 			<code>38</code>
+		</Action>
+		<Action sr="act8" ve="7">
+			<code>61</code>
+			<se>false</se>
+			<Int sr="arg0" val="10"/>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>47</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">HtmlViewer2</Str>
+			<Int sr="arg1" val="5"/>
+			<Int sr="arg10" val="1"/>
+			<Int sr="arg2" val="100"/>
+			<Int sr="arg3" val="100"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Int sr="arg7" val="1"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
 	<Task sr="task14">
@@ -2139,7 +2130,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 	</Task>
 	<Task sr="task27">
 		<cdate>1682134777624</cdate>
-		<edate>1705793887105</edate>
+		<edate>1706472289649</edate>
 		<id>27</id>
 		<nme>Enable ADB</nme>
 		<pri>100</pri>
@@ -2170,7 +2161,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 		<Action sr="act2" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%htmlContent</Str>
-			<Str sr="arg1" ve="3">ADB açıldı!</Str>
+			<Str sr="arg1" ve="3">ADB ve Geliştirici seçenekleri açıldı!</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -2302,7 +2293,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 	</Task>
 	<Task sr="task30">
 		<cdate>1682134269332</cdate>
-		<edate>1706428805375</edate>
+		<edate>1706478005797</edate>
 		<id>30</id>
 		<nme>Start</nme>
 		<pri>100</pri>
@@ -2370,28 +2361,6 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act14" ve="7">
-			<code>547</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">%twrpUrl</Str>
-			<Str sr="arg1" ve="3">https://github.com/symbuzzer/bakimzi/releases/download/TWRP-APOLLO/twrp.img</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act15" ve="7">
-			<code>547</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">%downloadTimeout</Str>
-			<Str sr="arg1" ve="3">600</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
-		</Action>
-		<Action sr="act16" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Theme</Str>
 			<Int sr="arg1">
@@ -2407,7 +2376,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act17" ve="7">
+		<Action sr="act15" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Root</Str>
 			<Int sr="arg1">
@@ -2488,7 +2457,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appVersion</Str>
-			<Str sr="arg1" ve="3">v1.0.1</Str>
+			<Str sr="arg1" ve="3">v1.0.2</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -2499,7 +2468,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%appLongVersion</Str>
-			<Str sr="arg1" ve="3">101</Str>
+			<Str sr="arg1" ve="3">102</Str>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 			<Int sr="arg4" val="0"/>
@@ -2519,7 +2488,7 @@ Shade of the secondary neutral system color at 10% lightness.&lt;/_array_net.din
 	</Task>
 	<Task sr="task31">
 		<cdate>1682134481806</cdate>
-		<edate>1705833649701</edate>
+		<edate>1706478463934</edate>
 		<id>31</id>
 		<nme>Root</nme>
 		<pri>100</pri>
@@ -2968,7 +2937,7 @@ Eğer bu uygulamalardan herhangi biri yüklü değilse ve yüklediğinizde hata 
 	</Task>
 	<Task sr="task34">
 		<cdate>1682134830260</cdate>
-		<edate>1705833652233</edate>
+		<edate>1706469924046</edate>
 		<id>34</id>
 		<nme>Check Update</nme>
 		<pri>100</pri>
@@ -3184,7 +3153,7 @@ Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.a
 	</Task>
 	<Task sr="task38">
 		<cdate>1682623647237</cdate>
-		<edate>1706432169204</edate>
+		<edate>1706471276271</edate>
 		<id>38</id>
 		<nme>Confirm Dialog</nme>
 		<Action sr="act0" ve="7">
@@ -3470,21 +3439,64 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 	</Task>
 	<Task sr="task42">
 		<cdate>1682142678120</cdate>
-		<edate>1706432649637</edate>
+		<edate>1706472233668</edate>
 		<id>42</id>
 		<nme>Github</nme>
 		<Action sr="act0" ve="7">
-			<code>61</code>
+			<code>341</code>
 			<se>false</se>
-			<Int sr="arg0" val="10"/>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%isConnected</Str>
 		</Action>
 		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isConnected</lhs>
+					<op>3</op>
+					<rhs>none</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
 			<code>104</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">https://github.com/symbuzzer</Str>
 			<App sr="arg1"/>
 			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">İnternete bağlı değilsiniz :(</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>61</code>
+			<se>false</se>
+			<Int sr="arg0" val="10"/>
 		</Action>
 	</Task>
 	<Task sr="task43">
@@ -3521,7 +3533,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 	</Task>
 	<Task sr="task45">
 		<cdate>1682621079722</cdate>
-		<edate>1706432179162</edate>
+		<edate>1706471564056</edate>
 		<id>45</id>
 		<nme>Confirm</nme>
 		<Action sr="act0" ve="7">
@@ -3540,30 +3552,6 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>130</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">Flash Kernel</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%confirmProcess</lhs>
-					<op>2</op>
-					<rhs>flashkernel</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act11" ve="7">
 			<code>130</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Reboot</Str>
@@ -3599,17 +3587,21 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act12" ve="7">
+		<Action sr="act11" ve="7">
 			<code>61</code>
 			<se>false</se>
 			<Int sr="arg0" val="10"/>
 		</Action>
-		<Action sr="act13" ve="7">
-			<code>49</code>
+		<Action sr="act12" ve="7">
+			<code>65</code>
 			<se>false</se>
-			<Str sr="arg0" ve="3">HtmlViewerWoutButton</Str>
+			<Str sr="arg0" ve="3">HtmlViewer</Str>
+			<Str sr="arg1" ve="3">Buton1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act2" ve="7">
 			<code>47</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">HtmlViewer</Str>
@@ -3624,73 +3616,16 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act15" ve="7">
-			<code>43</code>
-		</Action>
-		<Action sr="act16" ve="7">
-			<code>49</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">HtmlViewerWoutButton</Str>
-		</Action>
-		<Action sr="act17" ve="7">
-			<code>130</code>
-			<Str sr="arg0" ve="3">Confirm Dialog</Str>
-			<Int sr="arg1">
-				<var>%priority</var>
-			</Int>
-			<Int sr="arg10" val="1"/>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="0"/>
-			<Str sr="arg7" ve="3"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="0"/>
-		</Action>
-		<Action sr="act18" ve="7">
-			<code>38</code>
-		</Action>
-		<Action sr="act2" ve="7">
-			<code>47</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">HtmlViewerWoutButton</Str>
-			<Int sr="arg1" val="7"/>
-			<Int sr="arg10" val="1"/>
-			<Int sr="arg2" val="100"/>
-			<Int sr="arg3" val="100"/>
-			<Int sr="arg4" val="1"/>
-			<Int sr="arg5" val="0"/>
-			<Int sr="arg6" val="1"/>
-			<Int sr="arg7" val="1"/>
-			<Int sr="arg8" val="1"/>
-			<Int sr="arg9" val="1"/>
-		</Action>
 		<Action sr="act3" ve="7">
-			<code>314</code>
+			<code>65</code>
 			<se>false</se>
-			<Int sr="arg0" val="0"/>
-			<Str sr="arg1" ve="3">%confirmText</Str>
-			<Str sr="arg2" ve="3"/>
-			<Str sr="arg3" ve="3"/>
-			<Str sr="arg4" ve="3"/>
-			<Int sr="arg5" val="2"/>
-			<Str sr="arg6" ve="3">%bioMetric</Str>
-			<Int sr="arg7" val="120"/>
-			<Int sr="arg8" val="0"/>
-			<Int sr="arg9" val="1"/>
+			<Str sr="arg0" ve="3">HtmlViewer</Str>
+			<Str sr="arg1" ve="3">Buton1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
 		</Action>
 		<Action sr="act4" ve="7">
-			<code>37</code>
-			<ConditionList sr="if">
-				<Condition sr="c0" ve="3">
-					<lhs>%bioMetric</lhs>
-					<op>2</op>
-					<rhs>success</rhs>
-				</Condition>
-			</ConditionList>
-		</Action>
-		<Action sr="act5" ve="7">
 			<code>130</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Enable QPST Mode</Str>
@@ -3714,7 +3649,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act5" ve="7">
 			<code>130</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Erase EFS</Str>
@@ -3738,7 +3673,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act6" ve="7">
 			<code>130</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Backup EFS</Str>
@@ -3762,7 +3697,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act8" ve="7">
+		<Action sr="act7" ve="7">
 			<code>130</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Enable ADB</Str>
@@ -3786,7 +3721,7 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act9" ve="7">
+		<Action sr="act8" ve="7">
 			<code>130</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Flash Recovery</Str>
@@ -3807,6 +3742,30 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 					<lhs>%confirmProcess</lhs>
 					<op>2</op>
 					<rhs>flashrecovery</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act9" ve="7">
+			<code>130</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">Flash Kernel</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="0"/>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%confirmProcess</lhs>
+					<op>2</op>
+					<rhs>flashkernel</rhs>
 				</Condition>
 			</ConditionList>
 		</Action>
@@ -3855,15 +3814,86 @@ Bu işlem cihazınıza kalıcı zararlar verebilir, cihazınızın IMEI numarala
 	</Task>
 	<Task sr="task47">
 		<cdate>1682362475749</cdate>
-		<edate>1705795572803</edate>
+		<edate>1706470899572</edate>
 		<id>47</id>
 		<nme>Main</nme>
 		<Action sr="act0" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%bioText</Str>
+			<Str sr="arg1" ve="3">Biyometrik doğrulama</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%progressText</Str>
+			<Str sr="arg1" ve="3">- Biyometrik doğrulama bekleniyor...
+</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="1"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
+		</Action>
+		<Action sr="act10" ve="7">
+			<code>130</code>
+			<Str sr="arg0" ve="3">Clear Variables</Str>
+			<Int sr="arg1">
+				<var>%priority</var>
+			</Int>
+			<Int sr="arg10" val="1"/>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="0"/>
+			<Int sr="arg6" val="0"/>
+			<Str sr="arg7" ve="3"/>
+			<Int sr="arg8" val="0"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act11" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act12" ve="7">
 			<code>49</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Splash</Str>
 		</Action>
-		<Action sr="act1" ve="7">
+		<Action sr="act13" ve="7">
+			<code>61</code>
+			<se>false</se>
+			<Int sr="arg0" val="10"/>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>314</code>
+			<se>false</se>
+			<Int sr="arg0" val="1"/>
+			<Str sr="arg1" ve="3">%bioText</Str>
+			<Str sr="arg2" ve="3"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Int sr="arg5" val="5"/>
+			<Str sr="arg6" ve="3">%bioMetric</Str>
+			<Int sr="arg7" val="120"/>
+			<Int sr="arg8" val="1"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%bioMetric</lhs>
+					<op>2</op>
+					<rhs>success</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act4" ve="7">
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%htmlContent</Str>
@@ -3882,7 +3912,7 @@ Bu şartları kabul etmiyorsanız lütfen uygulamayı derhal kaldırın!</Str>
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act2" ve="7">
+		<Action sr="act5" ve="7">
 			<code>47</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">Main</Str>
@@ -3897,7 +3927,7 @@ Bu şartları kabul etmiyorsanız lütfen uygulamayı derhal kaldırın!</Str>
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act6" ve="7">
 			<code>47</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">HtmlViewer</Str>
@@ -3912,22 +3942,25 @@ Bu şartları kabul etmiyorsanız lütfen uygulamayı derhal kaldırın!</Str>
 			<Int sr="arg8" val="1"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act7" ve="7">
 			<code>61</code>
 			<se>false</se>
 			<Int sr="arg0" val="10"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act8" ve="7">
 			<code>549</code>
 			<Str sr="arg0" ve="3">%htmlContent</Str>
 			<Int sr="arg1" val="0"/>
 			<Int sr="arg2" val="0"/>
 			<Int sr="arg3" val="0"/>
 		</Action>
+		<Action sr="act9" ve="7">
+			<code>43</code>
+		</Action>
 	</Task>
 	<Task sr="task48">
 		<cdate>1682362841044</cdate>
-		<edate>1706430751045</edate>
+		<edate>1706471752738</edate>
 		<id>48</id>
 		<nme>Install Update</nme>
 		<pri>100</pri>
@@ -3987,8 +4020,7 @@ Bu şartları kabul etmiyorsanız lütfen uygulamayı derhal kaldırın!</Str>
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%htmlContent</Str>
-			<Str sr="arg1" ve="3">Güncelleme bulundu: %appUpdateLongVersion
-(Yüklü versiyon: %appLongVersion)
+			<Str sr="arg1" ve="3">Güncelleme bulundu!
 
 Uygulamayı kullanmaya devam edebilmek için güncelleme yapmalısınız.
 
@@ -4069,7 +4101,7 @@ Tamam'a bastıktan sonra uygulama indirilecek. İndirme tamamlandıktan sonra in
 	</Task>
 	<Task sr="task49">
 		<cdate>1682372505039</cdate>
-		<edate>1706432606488</edate>
+		<edate>1706473697086</edate>
 		<id>49</id>
 		<nme>About</nme>
 		<pri>100</pri>
@@ -4337,7 +4369,7 @@ Bu menüden gerçekleştirilecek işlemler cihazınızı kullanılmaz hale getir
 	</Task>
 	<Task sr="task57">
 		<cdate>1682609745800</cdate>
-		<edate>1705815489615</edate>
+		<edate>1706472188927</edate>
 		<id>57</id>
 		<nme>Manual Update</nme>
 		<Action sr="act0" ve="7">
@@ -4367,12 +4399,23 @@ Bu menüden gerçekleştirilecek işlemler cihazınızı kullanılmaz hale getir
 			<Int sr="arg9" val="1"/>
 		</Action>
 		<Action sr="act10" ve="7">
-			<code>38</code>
+			<code>547</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">%htmlContent</Str>
+			<Str sr="arg1" ve="3">Yeni güncelleme mevcut değil!</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+			<Int sr="arg5" val="3"/>
+			<Int sr="arg6" val="1"/>
 		</Action>
 		<Action sr="act11" ve="7">
-			<code>43</code>
+			<code>38</code>
 		</Action>
 		<Action sr="act12" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act13" ve="7">
 			<code>547</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">%htmlContent</Str>
@@ -4383,22 +4426,40 @@ Bu menüden gerçekleştirilecek işlemler cihazınızı kullanılmaz hale getir
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act13" ve="7">
+		<Action sr="act14" ve="7">
 			<code>38</code>
 		</Action>
-		<Action sr="act14" ve="7">
+		<Action sr="act15" ve="7">
+			<code>65</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">HtmlViewer</Str>
+			<Str sr="arg1" ve="3">Buton1</Str>
+			<Int sr="arg2" val="1"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act16" ve="7">
 			<code>61</code>
 			<se>false</se>
 			<Int sr="arg0" val="10"/>
 		</Action>
 		<Action sr="act2" ve="7">
+			<code>65</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">HtmlViewer</Str>
+			<Str sr="arg1" ve="3">Buton1</Str>
+			<Int sr="arg2" val="0"/>
+			<Int sr="arg3" val="0"/>
+			<Int sr="arg4" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
 			<code>341</code>
 			<se>false</se>
 			<Int sr="arg0" val="0"/>
 			<Str sr="arg1" ve="3"/>
 			<Str sr="arg2" ve="3">%isConnected</Str>
 		</Action>
-		<Action sr="act3" ve="7">
+		<Action sr="act4" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -4408,7 +4469,7 @@ Bu menüden gerçekleştirilecek işlemler cihazınızı kullanılmaz hale getir
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act4" ve="7">
+		<Action sr="act5" ve="7">
 			<code>339</code>
 			<se>false</se>
 			<Bundle sr="arg0">
@@ -4442,7 +4503,7 @@ Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.a
 			<Int sr="arg8" val="30"/>
 			<Int sr="arg9" val="1"/>
 		</Action>
-		<Action sr="act5" ve="7">
+		<Action sr="act6" ve="7">
 			<code>547</code>
 			<Str sr="arg0" ve="3">%appUpdateLongVersion</Str>
 			<Str sr="arg1" ve="3">%http_data</Str>
@@ -4452,7 +4513,7 @@ Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.a
 			<Int sr="arg5" val="3"/>
 			<Int sr="arg6" val="1"/>
 		</Action>
-		<Action sr="act6" ve="7">
+		<Action sr="act7" ve="7">
 			<code>37</code>
 			<ConditionList sr="if">
 				<Condition sr="c0" ve="3">
@@ -4462,7 +4523,7 @@ Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.a
 				</Condition>
 			</ConditionList>
 		</Action>
-		<Action sr="act7" ve="7">
+		<Action sr="act8" ve="7">
 			<code>130</code>
 			<Str sr="arg0" ve="3">Install Update</Str>
 			<Int sr="arg1">
@@ -4478,22 +4539,8 @@ Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.a
 			<Int sr="arg8" val="0"/>
 			<Int sr="arg9" val="0"/>
 		</Action>
-		<Action sr="act8" ve="7">
-			<code>43</code>
-		</Action>
 		<Action sr="act9" ve="7">
-			<code>547</code>
-			<se>false</se>
-			<Str sr="arg0" ve="3">%htmlContent</Str>
-			<Str sr="arg1" ve="3">Yeni güncelleme mevcut değil.
-
-Github'taki son versiyon: %appUpdateLongVersion
-Şu an bu cihazda versiyon %appLongVersion yüklü.</Str>
-			<Int sr="arg2" val="0"/>
-			<Int sr="arg3" val="0"/>
-			<Int sr="arg4" val="0"/>
-			<Int sr="arg5" val="3"/>
-			<Int sr="arg6" val="1"/>
+			<code>43</code>
 		</Action>
 	</Task>
 	<Task sr="task58">
@@ -4763,7 +4810,7 @@ Data that the server responded from the HTTP request.&lt;/_array_net.dinglisch.a
 	</Task>
 	<Task sr="task63">
 		<cdate>1705783344152</cdate>
-		<edate>1706429080182</edate>
+		<edate>1706471149423</edate>
 		<id>63</id>
 		<nme>Flash Recovery</nme>
 		<pri>100</pri>
@@ -5192,23 +5239,133 @@ Not: boot_ab cihazlarda çalışmaz.</Str>
 			<Int sr="arg9" val="1"/>
 		</Action>
 	</Task>
-	<Task sr="task71">
+	<Task sr="task70">
 		<cdate>1682142678120</cdate>
-		<edate>1706432641103</edate>
-		<id>71</id>
+		<edate>1706472243766</edate>
+		<id>70</id>
 		<nme>Source</nme>
 		<Action sr="act0" ve="7">
-			<code>61</code>
+			<code>341</code>
 			<se>false</se>
-			<Int sr="arg0" val="10"/>
+			<Int sr="arg0" val="0"/>
+			<Str sr="arg1" ve="3"/>
+			<Str sr="arg2" ve="3">%isConnected</Str>
 		</Action>
 		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%isConnected</lhs>
+					<op>3</op>
+					<rhs>none</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
 			<code>104</code>
 			<se>false</se>
 			<Str sr="arg0" ve="3">https://github.com/symbuzzer/bakimzi</Str>
 			<App sr="arg1"/>
 			<Int sr="arg2" val="0"/>
 			<Str sr="arg3" ve="3"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>43</code>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>548</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">İnternete bağlı değilsiniz :(</Str>
+			<Int sr="arg1" val="0"/>
+			<Str sr="arg10" ve="3"/>
+			<Int sr="arg11" val="1"/>
+			<Int sr="arg12" val="0"/>
+			<Str sr="arg13" ve="3"/>
+			<Int sr="arg14" val="0"/>
+			<Str sr="arg15" ve="3"/>
+			<Int sr="arg2" val="0"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Str sr="arg6" ve="3"/>
+			<Str sr="arg7" ve="3"/>
+			<Str sr="arg8" ve="3"/>
+			<Int sr="arg9" val="1"/>
+		</Action>
+		<Action sr="act5" ve="7">
+			<code>38</code>
+		</Action>
+		<Action sr="act6" ve="7">
+			<code>61</code>
+			<se>false</se>
+			<Int sr="arg0" val="10"/>
+		</Action>
+	</Task>
+	<Task sr="task73">
+		<cdate>1706472009490</cdate>
+		<edate>1706478853378</edate>
+		<id>73</id>
+		<nme>Disable ADB DevOpt</nme>
+		<Action sr="act0" ve="7">
+			<code>365</code>
+			<se>false</se>
+			<Bundle sr="arg0">
+				<Vals sr="val">
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES>&lt;StringArray sr=""&gt;&lt;_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;%has_root
+Root Erişimi
+&lt;/_array_net.dinglisch.android.tasker.RELEVANT_VARIABLES0&gt;&lt;/StringArray&gt;</net.dinglisch.android.tasker.RELEVANT_VARIABLES>
+					<net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>[Ljava.lang.String;</net.dinglisch.android.tasker.RELEVANT_VARIABLES-type>
+				</Vals>
+			</Bundle>
+			<Str sr="arg1" ve="3">CheckRoot()</Str>
+		</Action>
+		<Action sr="act1" ve="7">
+			<code>37</code>
+			<ConditionList sr="if">
+				<Condition sr="c0" ve="3">
+					<lhs>%has_root</lhs>
+					<op>0</op>
+					<rhs>true</rhs>
+				</Condition>
+			</ConditionList>
+		</Action>
+		<Action sr="act2" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">settings put global development_settings_enabled 0</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act3" ve="7">
+			<code>123</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">settings put global adb_enabled 0</Str>
+			<Int sr="arg1" val="0"/>
+			<Int sr="arg2" val="1"/>
+			<Str sr="arg3" ve="3"/>
+			<Str sr="arg4" ve="3"/>
+			<Str sr="arg5" ve="3"/>
+			<Int sr="arg6" val="1"/>
+			<Int sr="arg7" val="0"/>
+		</Action>
+		<Action sr="act4" ve="7">
+			<code>38</code>
+		</Action>
+	</Task>
+	<Task sr="task74">
+		<cdate>1682146161234</cdate>
+		<edate>1682146161234</edate>
+		<id>74</id>
+		<pri>7</pri>
+		<Action sr="act0" ve="7">
+			<code>49</code>
+			<se>false</se>
+			<Str sr="arg0" ve="3">HtmlViewer2</Str>
 		</Action>
 	</Task>
 	<Task sr="task8">
